@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -6,15 +7,17 @@
   font-family: Poppins;
 }
 
-.contianer {
+body {
+  width: 100%;
+}
+
+body .contianer {
   max-width: 1600px;
-  background: #000;
-  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
   margin: auto;
 }
-.contianer header {
-  max-width: 1100px;
-  width: 100%;
+
+body .contianer header {
+  max-width: 100%;
   height: 70px;
   margin: auto;
   background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
@@ -24,63 +27,76 @@
   position: sticky;
   top: 0;
 }
-.contianer header .logo {
+
+body .contianer header .logo {
   color: white;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.contianer header .logo h1 {
+
+body .contianer header .logo h1 {
   font-size: 16px;
   font-weight: 500;
 }
-.contianer header .header_ul ul {
+
+body .contianer header .header_ul ul {
   display: flex;
   list-style: none;
   gap: 30px;
 }
-.contianer header .header_ul ul li a {
+
+body .contianer header .header_ul ul li a {
   text-decoration: none;
   color: #8B8E99;
   font-weight: 500;
 }
-.contianer header .header_right {
+
+body .contianer header .header_right {
   display: flex;
   align-items: center;
   color: #fff;
   gap: 15px;
 }
-.contianer header .header_right i {
+
+body .contianer header .header_right i {
   font-size: 25px;
   cursor: pointer;
 }
-.contianer main {
-  max-width: 1100px;
+
+body .contianer main {
+  max-width: 100%;
   margin: auto;
-  height: 100vh;
-  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
+  height: auto;
   color: #fff;
+  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
 }
-.contianer main .section1 {
-  width: 100%;
+
+body .contianer main .section1 {
+  width: 1100px;
+  margin: auto;
   height: 800px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
 }
-.contianer main .section1 .section1_left {
+
+body .contianer main .section1 .section1_left {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.contianer main .section1 .section1_left h1 {
+
+body .contianer main .section1 .section1_left h1 {
   font-size: 64px;
   font-weight: 700;
   line-height: 80.32px;
 }
-.contianer main .section1 .section1_left p {
+
+body .contianer main .section1 .section1_left p {
   width: 456px;
   font-size: 16px;
   font-weight: 500;
@@ -88,7 +104,8 @@
   color: #8B8E99;
   margin: 10px 0 50px 0;
 }
-.contianer main .section1 .section1_left .section1_form {
+
+body .contianer main .section1 .section1_left .section1_form {
   width: 440px;
   height: 60px;
   background-color: #fff;
@@ -98,17 +115,20 @@
   align-items: center;
   justify-content: space-between;
 }
-.contianer main .section1 .section1_left .section1_form i {
+
+body .contianer main .section1 .section1_left .section1_form i {
   color: #4562D8;
   font-size: 25px;
 }
-.contianer main .section1 .section1_left .section1_form input {
+
+body .contianer main .section1 .section1_left .section1_form input {
   width: 280px;
   height: 80%;
   border: none;
   font-size: 20px;
 }
-.contianer main .section1 .section1_left .section1_form button {
+
+body .contianer main .section1 .section1_left .section1_form button {
   width: 110px;
   height: 45px;
   background-color: #3858D6;
@@ -117,12 +137,15 @@
   color: #fff;
   border-radius: 10px;
 }
-.contianer main .section2 {
+
+body .contianer main .section2 {
   width: 100%;
   display: flex;
+  background-color: #fff;
   justify-content: space-around;
 }
-.contianer main .section2 .watch {
+
+body .contianer main .section2 .watch {
   width: 355px;
   height: 240px;
   border-radius: 20px;
@@ -132,19 +155,29 @@
   justify-content: center;
   gap: 25px;
 }
-.contianer main .section2 .watch .s2_watch_text {
+
+body .contianer main .section2 .watch .s2_watch_text {
   width: 170px;
 }
-.contianer main .section2 .watch .s2_watch_text h1 {
+
+body .contianer main .section2 .watch .s2_watch_text h1 {
   font-family: Inter;
   font-size: 36px;
   font-weight: 700;
   color: #000;
 }
-.contianer main .section2 .watch .s2_watch_text p {
+
+body .contianer main .section2 .watch .s2_watch_text p {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.36px;
   color: #8B8E99;
-}/*# sourceMappingURL=style.css.map */
+}
+
+body .contianer main .section3 {
+  width: 100%;
+  color: #000;
+}
+
+/*# sourceMappingURL=style.css.map */
