@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.contianer {
+  max-width: 1600px;
+  background: #000;
+  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
+  margin: auto;
+}
+
+.contianer header {
+  max-width: 1100px;
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.contianer header .logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contianer header .logo h1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.contianer header .header_ul ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.contianer header .header_ul ul li a {
+  text-decoration: none;
+  color: #8B8E99;
+  font-weight: 500;
+}
+
+.contianer header .header_right {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 15px;
+}
+
+.contianer header .header_right i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.contianer main {
+  max-width: 1100px;
+  margin: auto;
+  height: 100vh;
+  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
+  color: #fff;
+}
+
+.contianer main .section1 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contianer main .section1 .section1_left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contianer main .section1 .section1_left h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80.32px;
+}
+
+.contianer main .section1 .section1_left p {
+  width: 456px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.08px;
+  color: #8B8E99;
+  margin: 10px 0 50px 0;
+}
+
+.contianer main .section1 .section1_left .section1_form {
+  width: 440px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contianer main .section1 .section1_left .section1_form i {
+  color: #4562D8;
+  font-size: 25px;
+}
+
+.contianer main .section1 .section1_left .section1_form input {
+  width: 280px;
+  height: 80%;
+  border: none;
+  font-size: 20px;
+}
+
+.contianer main .section1 .section1_left .section1_form button {
+  width: 110px;
+  height: 45px;
+  background-color: #3858D6;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
