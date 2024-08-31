@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
 * {
   padding: 0;
   margin: 0;
@@ -7,17 +6,15 @@
   font-family: Poppins;
 }
 
-body {
-  width: 100%;
-}
-
-body .contianer {
+.contianer {
   max-width: 1600px;
+  background: #000;
+  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
   margin: auto;
 }
-
-body .contianer header {
-  max-width: 100%;
+.contianer header {
+  max-width: 1100px;
+  width: 100%;
   height: 70px;
   margin: auto;
   background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
@@ -27,76 +24,64 @@ body .contianer header {
   position: sticky;
   top: 0;
 }
-
-body .contianer header .logo {
+.contianer header .logo {
   color: white;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-
-body .contianer header .logo h1 {
+.contianer header .logo h1 {
   font-size: 16px;
   font-weight: 500;
 }
-
-body .contianer header .header_ul ul {
+.contianer header .header_ul ul {
   display: flex;
   list-style: none;
   gap: 30px;
 }
-
-body .contianer header .header_ul ul li a {
+.contianer header .header_ul ul li a {
   text-decoration: none;
   color: #8B8E99;
   font-weight: 500;
 }
-
-body .contianer header .header_right {
+.contianer header .header_right {
   display: flex;
   align-items: center;
   color: #fff;
   gap: 15px;
 }
-
-body .contianer header .header_right i {
+.contianer header .header_right i {
   font-size: 25px;
   cursor: pointer;
 }
-
-body .contianer main {
-  max-width: 100%;
+.contianer main {
+  width: 100%;
   margin: auto;
-  height: auto;
-  color: #fff;
   background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
+  color: #fff;
 }
-
-body .contianer main .section1 {
-  width: 1100px;
+.contianer main .section1 {
+  max-width: 1100px;
   margin: auto;
+  width: 100%;
   height: 800px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(270deg, rgb(11, 11, 11) 100%, rgb(0, 0, 0) 100%);
 }
-
-body .contianer main .section1 .section1_left {
+.contianer main .section1 .section1_left {
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
-body .contianer main .section1 .section1_left h1 {
+.contianer main .section1 .section1_left h1 {
   font-size: 64px;
   font-weight: 700;
   line-height: 80.32px;
 }
-
-body .contianer main .section1 .section1_left p {
+.contianer main .section1 .section1_left p {
   width: 456px;
   font-size: 16px;
   font-weight: 500;
@@ -104,8 +89,7 @@ body .contianer main .section1 .section1_left p {
   color: #8B8E99;
   margin: 10px 0 50px 0;
 }
-
-body .contianer main .section1 .section1_left .section1_form {
+.contianer main .section1 .section1_left .section1_form {
   width: 440px;
   height: 60px;
   background-color: #fff;
@@ -115,20 +99,17 @@ body .contianer main .section1 .section1_left .section1_form {
   align-items: center;
   justify-content: space-between;
 }
-
-body .contianer main .section1 .section1_left .section1_form i {
+.contianer main .section1 .section1_left .section1_form i {
   color: #4562D8;
   font-size: 25px;
 }
-
-body .contianer main .section1 .section1_left .section1_form input {
+.contianer main .section1 .section1_left .section1_form input {
   width: 280px;
   height: 80%;
   border: none;
   font-size: 20px;
 }
-
-body .contianer main .section1 .section1_left .section1_form button {
+.contianer main .section1 .section1_left .section1_form button {
   width: 110px;
   height: 45px;
   background-color: #3858D6;
@@ -137,15 +118,14 @@ body .contianer main .section1 .section1_left .section1_form button {
   color: #fff;
   border-radius: 10px;
 }
-
-body .contianer main .section2 {
+.contianer main .section2 {
   width: 100%;
-  display: flex;
   background-color: #fff;
-  justify-content: space-around;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
-
-body .contianer main .section2 .watch {
+.contianer main .section2 .watch {
   width: 355px;
   height: 240px;
   border-radius: 20px;
@@ -155,29 +135,24 @@ body .contianer main .section2 .watch {
   justify-content: center;
   gap: 25px;
 }
-
-body .contianer main .section2 .watch .s2_watch_text {
+.contianer main .section2 .watch .s2_watch_text {
   width: 170px;
 }
-
-body .contianer main .section2 .watch .s2_watch_text h1 {
+.contianer main .section2 .watch .s2_watch_text h1 {
   font-family: Inter;
   font-size: 36px;
   font-weight: 700;
   color: #000;
 }
-
-body .contianer main .section2 .watch .s2_watch_text p {
+.contianer main .section2 .watch .s2_watch_text p {
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
   line-height: 19.36px;
   color: #8B8E99;
 }
-
-body .contianer main .section3 {
-  width: 100%;
-  color: #000;
-}
-
-/*# sourceMappingURL=style.css.map */
+.contianer menu {
+  width: 1100px;
+  height: 1000px;
+  background: #fff;
+}/*# sourceMappingURL=style.css.map */
