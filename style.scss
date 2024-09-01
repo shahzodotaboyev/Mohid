@@ -188,7 +188,7 @@
 
         .section3 {
             width: 100%;
-            height: 1100px;
+            // height: 1100px;F
             background-color: #fff;
             color: #000;
             display: flex;
@@ -212,9 +212,10 @@
 
             .shop_watchs {
                 width: 1100px;
-                height: 944px;
+                // height: 944px;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
+                row-gap: 20px ;
 
                 .shop_watch {
                     width: 335px;
@@ -270,6 +271,7 @@
                 border: none;
                 color: #fff;
                 cursor: pointer;
+                margin-top: 20px;
             }
 
         }
@@ -331,8 +333,87 @@
         }
 
         .section5 {
-            width: 1100px;
+            width: 100%;
             height: 377px;
-            background-color: #F6F6F6;
+            background-color: #fff;
+            color: #000;
+            display: flex;
+
+            .in_s5 {
+                width: 1100px;
+                height: 377px;
+                display: flex;
+                margin: auto;
+                background: #F6F6F6;
+                justify-content: space-around;
+                align-items: center;
+
+                .s5_left {
+                    width: 537px;
+
+                    h1 {
+                        font-family: Inter;
+                        font-size: 36px;
+                        font-weight: 700;
+
+                    }
+
+                    p {
+                        font-family: Inter;
+                        margin-top: 10px;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #8B8E99;
+                    }
+
+                    form {
+                        width: 443px;
+                        height: 60px;
+                        background-color: #fff;
+                        display: flex;
+                        align-items: center;
+                        margin-top: 30px;
+
+                        input {
+                            width: 273px;
+                            border: none;
+                            height: 90%;
+
+                        }
+
+                        button {
+                            width: 131px;
+                            height: 45px;
+                            border-radius: 10px;
+                            border: none;
+                            background: #3858D6;
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: #FFF;
+                        }
+                    }
+                }
+
+                img {
+                    width: 272px;
+                    height: 301px;
+                }
+            }
         }
     }
+
+    footer {
+        width: 100%;
+        height: 65px;
+        background-color: #0B0B0B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+}
